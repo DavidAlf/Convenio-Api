@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "aws.region",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.region'"
+  },
+  {
+    "name": "aws.secret-name-read",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.secret-name-read'"
+  },
+  {
+    "name": "aws.secret-name-write",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.secret-name-write'"
+  },
+  {
+    "name": "aws.db-name",
+    "type": "java.lang.String",
+    "description": "A description for 'aws.db-name'"
+  },
+  {
+    "name": "spring.doc.api-docs.path",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.doc.api-docs.path'"
+  },
+  {
+    "name": "spring.doc.swagger-ui.path",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.doc.swagger-ui.path'"
+  },
+  {
+    "name": "spring.datasource.limite-conexiones",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.limite-conexiones'"
+  },
+  {
+    "name": "spring.datasource.limite-conexiones-iniciales",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.limite-conexiones-iniciales'"
+  },
+  {
+    "name": "spring.datasource.timeout.connection",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.timeout.connection'"
+  },
+  {
+    "name": "spring.datasource.timeout.read",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.timeout.read'"
+  }
+]}

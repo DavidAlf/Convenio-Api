@@ -1,0 +1,28 @@
+spring.application.name: convenios
+server.port: 9090
+
+aws:
+  region: us-east-1
+  secret-name-read: bpa-database-secret
+  secret-name-write: bpa-database-secret
+  db-name: JDAO
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    open-in-view: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    limite-conexiones: 5
+    limite-conexiones-iniciales: 5
+    timeout:
+      connection: 10000
+      read: 7000  
+  doc:
+    api-docs:
+      path: /v3/api-docs
+    swagger-ui:
+      path: /swagger-ui.html
+
